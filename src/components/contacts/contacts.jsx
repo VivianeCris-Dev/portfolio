@@ -1,5 +1,5 @@
 import "./contacts.css";
-import whatsapp from "../../assets/Whatsapp.svg";
+import whatsapp from "../../assets/whatsapp.svg";
 import linkedin from "../../assets/linkedin-black.svg";
 import email from "../../assets/email.svg";
 
