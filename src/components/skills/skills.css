@@ -1,0 +1,106 @@
+.skill {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  padding-top: 150px;
+  margin-bottom: 100px;
+}
+
+.sobre {
+  display: flex;
+  gap: 50px;
+  margin-top: 50px;
+}
+
+.name {
+  margin-bottom: 30px;
+}
+
+
+h3 {
+  color: rgb(1, 45, 45);
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 2.5rem;
+}
+
+h4 {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+
+.learned {
+  margin-top: 30px;
+}
+
+.line {
+  border-top: 6px solid rgb(1, 45, 45);
+  width: 370px;
+  margin-bottom: 50px;
+  border-radius: 5px;
+}
+
+.ability {
+  font-family: cursive;
+  font-size: 1rem;
+  color: black;
+}
+
+.abaut {
+  width: 700px;
+}
+
+
+p {
+  font-size: 1.1rem;
+  text-align: justify;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: rgb(127, 123, 123);
+  margin-bottom: 15px;
+}
+
+h1 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 3.5rem;
+  color: rgb(51, 148, 172);
+}
+
+.link {
+  display: flex;
+  gap: 30px;
+
+}
+
+@media screen and (max-width:1150px) {
+  .sobre {
+    flex-direction: column;
+  }
+
+  .line {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .abaut {
+    width: 500px;
+  }
+}
+
+
+@media screen and (max-width: 550px) {
+
+  .abaut {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+
+  .abaut {
+    width: 210px;
+  }
+}

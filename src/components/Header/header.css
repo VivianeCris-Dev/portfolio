@@ -1,0 +1,47 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  opacity: 0.9;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+  gap: 50px;
+  padding: 20px;
+  background-color: rgb(250, 250, 250);
+}
+
+img {
+  border-radius: 400px;
+  object-fit: cover;
+  width: 120px;
+  height: 120px;
+}
+
+.skills {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.summary_header {
+  color: rgb(24, 67, 67);
+}
+
+.summary_header:hover {
+  color: rgb(70, 203, 243)
+}
+
+@media screen and (max-width: 510px) {
+  .svg_header {
+    display: none;
+  }
+
+  .header {
+    justify-content: center;
+    gap: 0;
+  }
+}
