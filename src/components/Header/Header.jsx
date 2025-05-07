@@ -7,18 +7,24 @@ function Header({ wasClicked, setWasClicked }) {
   return (
     <div className="header">
       <div className="svg_div">
-        <a href="https:/github.com/VivianeCris-Dev" target="_blank">
+        <a
+          href="https://github.com/VivianeCris-Dev"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <img className="svg_header" alt="logo do github" src={github} />
         </a>
         <a
-          href="https:/linkedin.com/in/viviane-cristina-developer"
+          href="https://www.linkedin.com/in/viviane-cristina-developer"
           target="_blank"
+          rel="noopener noreferrer"
         >
           <img className="svg_header" alt="logo do linkedin" src={linkedin} />
         </a>
         <a
-          href="https:/instagram.com/viviane_crisalves?igsh=MWY2MHdpcGNkdXJ5eQ=="
+          href="https://www.instagram.com/viviane_crisalves?igsh=MWY2MHdpcGNkdXJ5eQ=="
           target="_blank"
+          rel="noopener noreferrer"
         >
           <img className="svg_header" alt="logo do instagram" src={instagram} />
         </a>

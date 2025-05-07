@@ -40,7 +40,8 @@ function Contacts() {
         </div>
 
         <a
-          href="https:/linkedin.com/in/viviane-cristina-developer"
+          href="https://www.linkedin.com/in/viviane-cristina-developer"
+          rel="noopener noreferrer"
           target="_blank"
           className="box"
         >

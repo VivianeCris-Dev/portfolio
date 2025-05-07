@@ -14,17 +14,23 @@ function Footer({ wasClicked, setWasClicked }) {
           <span>Criando experiências digitais memoráveis.</span>
         </div>
         <div className="svg_div_footer">
-          <a href="https:/github.com/VivianeCris-Dev" target="_blank">
+          <a
+            href="https://github.com/VivianeCris-Dev"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
             <img className="svg_footer" alt="logo do github" src={github} />
           </a>
           <a
-            href="https:/linkedin.com/in/viviane-cristina-developer"
+            href="https://www.linkedin.com/in/viviane-cristina-developer"
+            rel="noopener noreferrer"
             target="_blank"
           >
             <img className="svg_footer" alt="logo do linkedin" src={linkedin} />
           </a>
           <a
-            href="https:/instagram.com/viviane_crisalves?igsh=MWY2MHdpcGNkdXJ5eQ=="
+            href="https://www.instagram.com/viviane_crisalves?igsh=MWY2MHdpcGNkdXJ5eQ=="
+            rel="noopener noreferrer"
             target="_blank"
           >
             <img
