@@ -1,4 +1,5 @@
 import "./projects.css";
+import imgVendas from "../../../public/imgVendas.png";
 
 function Projects() {
   return (
@@ -12,7 +13,7 @@ function Projects() {
 
       <div className="proje">
         <img
-          src="../../public/imgVendas.png"
+          src={imgVendas}
           alt="Captura da tela de um computador"
           className="img-vendas"
         />
