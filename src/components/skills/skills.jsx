@@ -39,6 +39,8 @@ function Skills() {
             <div className="line"></div>
             <strong className="ability">Git</strong>
             <div className="line"></div>
+            <strong className="ability">Tailwind CSS</strong>
+            <div className="line"></div>
           </div>
         </div>
       </div>

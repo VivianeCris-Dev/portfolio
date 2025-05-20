@@ -105,3 +105,10 @@ h1 {
     width: 350px;
   }
 }
+
+@media screen and (max-width: 370px) {
+
+  .abaut {
+    width: 300px;
+  }
+}

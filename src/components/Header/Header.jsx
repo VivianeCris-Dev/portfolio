@@ -47,6 +47,15 @@ function Header({ wasClicked, setWasClicked }) {
           >
             Sobre Mim
           </a>
+        </li>{" "}
+        <li className="summary_header">
+          <a
+            href="#projects"
+            onClick={() => setWasClicked("#projects")}
+            className={wasClicked === "#projects" ? "blue" : "summary_header"}
+          >
+            Projetos
+          </a>
         </li>
         <li className="summary_header">
           <a
