@@ -18,10 +18,16 @@ function Projects() {
           className="img-vendas"
         />
         <div className="container_tools">
-          <h4>Site De Vendas Moderno</h4>
-          <p>Aplicação comércio eletrônico com React e Tailwind CSS.</p>
+          <div className="description">
+            <h4>Site De Vendas Moderno</h4>
+            <strong className="atl_green">Em desenvolvimento</strong>
+            <p>
+              Aplicação de comércio eletrônico com React e Tailwind CSS. A
+              aplicação utiliza o localStorage para salvar todas as alterações.
+            </p>
+          </div>
           <div className="tools">
-            <span className="deve">HTML</span>
+            <span className="deve">localStorage</span>
             <span className="deve">React.js</span>
             <span className="deve">Tailwind CSS</span>
           </div>
@@ -31,14 +37,14 @@ function Projects() {
               target="_blank"
               className="a"
             >
-              Visualize
+              Visualizar
             </a>
             <a
               href="https://github.com/VivianeCris-Dev/site-de-vendas"
               target="_blank"
               className="ab"
             >
-              Código
+              Código Fonte
             </a>
           </div>
         </div>
