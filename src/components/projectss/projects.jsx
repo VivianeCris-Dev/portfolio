@@ -1,5 +1,6 @@
 import "./projects.css";
 import imgVendas from "../../../public/imgVendas.png";
+import imgMemory from "../../../public/imgMemory.png";
 
 function Projects() {
   return (
@@ -12,6 +13,47 @@ function Projects() {
       </h4>
 
       <div className="proje">
+        <div className="container_tools">
+          <div className="description">
+            <h4>Jogo Da Memória</h4>
+            <strong className="atl_red">Finalizado</strong>
+            <p>
+              Uma aplicação feita para trabalhar logica de código com Javascript
+              javascript Vanilla e CSS. Nesse jogo você poderá escolher a
+              dificuldade do tempo e a quantidade de cartas. Pronto para ser
+              desafiado(a)?
+            </p>
+          </div>
+          <div className="tools">
+            <span className="deve">JS Vanilla</span>
+            <span className="deve">setTimeout()</span>
+            <span className="deve">CSS</span>
+          </div>
+          <div className="link_abaut">
+            <a
+              href="https://vivianejogodamemoria.netlify.app/"
+              target="_blank"
+              className="a"
+            >
+              Visualizar
+            </a>
+            <a
+              href="https://github.com/VivianeCris-Dev/JogoDaMemoria.js"
+              target="_blank"
+              className="ab"
+            >
+              Código Fonte
+            </a>
+          </div>
+        </div>
+        <img
+          src={imgMemory}
+          alt="Captura da tela de um computador"
+          className="img-vendas img-memory"
+        />
+      </div>
+
+      <div className="proje">
         <img
           src={imgVendas}
           alt="Captura da tela de um computador"
@@ -20,7 +62,7 @@ function Projects() {
         <div className="container_tools">
           <div className="description">
             <h4>Site De Vendas Moderno</h4>
-            <strong className="atl_green">Em desenvolvimento</strong>
+            <strong className="atl_red">Finalizado</strong>
             <p>
               Aplicação de comércio eletrônico com React e Tailwind CSS. A
               aplicação utiliza o localStorage para salvar todas as alterações.

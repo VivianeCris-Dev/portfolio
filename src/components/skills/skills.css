@@ -37,7 +37,7 @@ h4 {
 }
 
 .line {
-  border-top: 6px solid rgb(1, 45, 45);
+  border-top: 9px solid rgba(1, 37, 37, 0.625);
   width: 370px;
   margin-bottom: 50px;
   border-radius: 5px;
