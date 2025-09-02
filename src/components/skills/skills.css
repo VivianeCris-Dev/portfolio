@@ -43,6 +43,23 @@ h4 {
   border-radius: 5px;
 }
 
+.skil-container {
+  display: flex;
+  gap: 7px;
+}
+
+.skil {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(1, 37, 37, 0.625);
+  color: white;
+  border-radius: 20px;
+  padding: 8px;
+  width: 90px;
+  font-size: 1rem;
+}
+
 .ability {
   font-family: cursive;
   font-size: 1rem;

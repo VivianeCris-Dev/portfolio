@@ -35,12 +35,14 @@ function Skills() {
             <div className="line"></div>
             <strong className="ability">JavaScript</strong>
             <div className="line"></div>
-            <strong className="ability">ReactJS</strong>
+            <strong className="ability">React</strong>
             <div className="line"></div>
-            <strong className="ability">Git</strong>
+            <strong className="ability">TypeScript</strong>
             <div className="line"></div>
-            <strong className="ability">Tailwind CSS</strong>
-            <div className="line"></div>
+            <duv className="skil-container">
+              <strong className="skil">Tailwind</strong>
+              <strong className="skil">Git</strong>
+            </duv>
           </div>
         </div>
       </div>

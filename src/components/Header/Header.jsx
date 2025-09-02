@@ -47,7 +47,7 @@ function Header({ wasClicked, setWasClicked }) {
           >
             Sobre Mim
           </a>
-        </li>{" "}
+        </li>
         <li className="summary_header">
           <a
             href="#projects"

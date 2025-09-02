@@ -1,5 +1,5 @@
 import "./home.css";
-import curriculo from "../../assets/VIVIANECRISTINA.pdf";
+import curriculo from "../../assets/VIVIANE CRISTINA.pdf";
 
 function Home() {
   return (
