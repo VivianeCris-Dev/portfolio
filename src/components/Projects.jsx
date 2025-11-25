@@ -37,7 +37,7 @@ function Projects() {
   return (
     <section
       id="projects"
-      className="py-20 bg-[#1f1f26] w-screen h-screen flex items-center justify-center max-[768px]:h-[1250px] max-[370px]:h-[1400px] "
+      className="py-20 bg-[#1f1f26] w-screen h-screen flex items-center justify-center max-[768px]:h-[1250px] max-[390px]:h-[1400px] "
     >
       <div className="container px-4">
         <h2 className="text-4xl font-bold mb-4 text-center text-white">
@@ -52,7 +52,7 @@ function Projects() {
           {projects.map((project, index) => (
             <div
               key={index}
-              className="bg-[#272832] border border-gray-600 rounded-lg hover:shadow-card transition-all duration-300 hover:-translate-y-1 group w-[410px] h-[220px] flex flex-col items-center justify-center max-[1025px]:w-[350px] max-[768px]:w-[410px] max-[456px]:w-[380px] max-[408px]:w-[360px] max-[390px]:w-[340px] max-[370px]:w-[325px] max-[370px]:h-[280px] max-[360px]:w-[310px] max-[335px]:w-[290px]"
+              className="bg-[#272832] border border-gray-600 rounded-lg hover:shadow-card transition-all duration-300 hover:-translate-y-1 group w-[410px] h-[220px] flex flex-col items-center justify-center max-[1025px]:w-[350px] max-[768px]:w-[410px] max-[456px]:w-[380px] max-[408px]:w-[360px] max-[390px]:h-[250px] max-[390px]:w-[340px] max-[370px]:w-[325px] max-[360px]:w-[310px] max-[335px]:w-[290px]"
             >
               <div className="w-80 flex flex-col items-center justify-center max-[370px]:w-64">
                 <div className="mb-4 w-[328px] max-[1025px]:w-[308px] max-[768px]:w-[328px] max-[390px]:w-[300px] max-[370px]:w-[280px] max-[335px]:w-[270px]">
