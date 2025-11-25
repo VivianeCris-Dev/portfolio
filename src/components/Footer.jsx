@@ -77,7 +77,7 @@ function Footer({ wasClicked, setWasClicked, menuItems }) {
       </div>
       <div className=" flex flex-col items-center text-gray-300">
         <div className=" w-[200px] h-[2px] bg-gradient-to-r from-gray-300 to-transparent mb-3" />
-        <span className="max-[430px]:text-xs">
+        <span className="max-[430px]:text-xs m-3">
           © 2025 Viviane Cristina. Todos os direitos reservados.
         </span>
       </div>

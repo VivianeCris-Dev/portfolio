@@ -46,7 +46,7 @@ function Skills() {
   return (
     <section
       id="skills"
-      className="py-20 bg-[#272832] w-screen h-screen flex items-center justify-center max-[1044px]:h-[1280px] max-[768px]:h-[2000px] max-[513px]:h-[2050px] max-[462px]:h-[2100px] max-[392px]:h-[2200px]"
+      className="py-20 bg-[#272832] w-screen h-screen flex items-center justify-center max-[1044px]:h-[1280px] max-[768px]:h-[2000px] max-[513px]:h-[2050px] max-[462px]:h-[2100px] max-[392px]:h-[2200px] max-[347px]:h-[2300px]"
     >
       <div className="container px-4 flex">
         <div className="max-w-6xl mx-auto flex gap-20 max-[1044px]:flex-col">

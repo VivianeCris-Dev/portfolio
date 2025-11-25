@@ -55,12 +55,12 @@ function Contacts() {
 
         <div className="flex flex-col items-center justify-center gap-8 max-w-6xl mx-auto">
           <div className="space-y-6">
-            <div className="bg-[#1f1f26] border border-gray-500 rounded-xl p-8">
+            <div className="bg-[#1f1f26] border border-gray-500 rounded-xl p-8 max-[360px]:p-6">
               <div className="mb-9">
-                <h1 className="text-gray-300 font-bold text-[24px] mb-1">
+                <h1 className="text-gray-300 font-bold text-[24px] mb-1 max-[360px]:text-[20px]">
                   Informações de Contato
                 </h1>
-                <span className="text-white">
+                <span className="text-white max-[360px]:text-[13px]">
                   Fique à vontade para entrar em contato através de qualquer
                   canal abaixo.
                 </span>
@@ -76,7 +76,7 @@ function Contacts() {
                       {info.link ? (
                         <a
                           href={info.link}
-                          className="font-medium text-white hover:text-[#1471f3d6] transition-colors"
+                          className="font-medium text-white hover:text-[#1471f3d6] transition-colors max-[360px]:text-[14px]"
                           target="_blank"
                           rel="noopener noreferrer"
                         >
